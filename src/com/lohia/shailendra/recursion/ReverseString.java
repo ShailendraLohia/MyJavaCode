@@ -14,13 +14,13 @@ public class ReverseString {
 	 */
 	public static void main(String[] args) {
 		
-		String name= "damad";
+		String name= "aamad";
 		char[] nameChar = name.toCharArray();
 		
 		
 		nameChar = reverseString(nameChar,0);
 		
-		
+		System.out.println(7%10);
 		for(int i =0; i<nameChar.length;i++)
 		System.out.println("Reverse String is: " + i + " " + nameChar[i]);
 
@@ -43,5 +43,16 @@ public class ReverseString {
 		
 		
 	}
+	
+	/*public static String reverseGivenString(char[] stringArray){
+		//int index=0;
+		if(stringArray.length==0){
+			return stringArray.toString();
+		}
+		
+		char letter =stringArray[stringArray.length -1];		
+		reverseGivenString(stringArray);
+		stringArray[stringArray.length - ] = letter;
+	}*/
 
 }
